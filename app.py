@@ -9,7 +9,7 @@ title2 = st.checkbox('Title 2')
 
 if title1:
     st.header('United States Vehicle Data', divider='blue')
-if title2
+if title2:
     st.header('US Vehicle Data (1908-2019)', divder='red')
 
 st.header('United States Vehicle Data', divider='blue')
