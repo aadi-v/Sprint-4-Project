@@ -19,9 +19,9 @@ st.write('Student note: how can I use streamlit checkboxes to modify graphs? I c
 st.write('Would it be possible to have examples or lessons sent to me?')
 
 chart1 = px.scatter(vehicles, x='model_year', y='odometer', title='Car Model Year vs Mileage')
-chart2 = px.histogram(vehicles_50['price'], x='price', y='total cars at price', title='Price vs Frequency')
-chart3 = px.histogram(vehicles_75['price'], x='price', y='total cars at price', title='Price vs Frequency')
-chart4 = px.histogram(vehicles['price'], x='price', y='total cars at price', title='Price vs Frequency')
+chart2 = px.histogram(vehicles_50['price'], x='price', title='Price vs Amount of Cars at Price')
+chart3 = px.histogram(vehicles_75['price'], x='price', title='Price vs Amount of Cars at Price')
+chart4 = px.histogram(vehicles['price'], x='price', title='Price vs Amount of Cars at Price')
 
 st.write(chart1)
 
