@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 vehicles = pd.read_csv('vehicles_us.csv')
-vehicles_50 = vehicles_cyls[vehicles_cyls['price']<=9000]
-vehicles_75 = vehicles_cyls[vehicles_cyls['price']<=17000]
+vehicles_50 = vehicles[vehicles['price']<=9000]
+vehicles_75 = vehicles[vehicles['price']<=17000]
 
 st.write('Header Selection:')
 title1 = st.checkbox('Header 1')
